@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1 class="form-title">Travel Booking Service</h1>
+        <form action="#" method="POST" class="booking-form">
+            <label for="destination">Destination:</label>
+            <select name="destination" id="destination" required>
+                <option value="" disabled selected>Select Your destination</option>
+                <option value="paris">Paris</option>
+                <option value="new-york">New York</option>
+                <option value="tokyo">Tokyo</option>
+                <option value="sydney">Sydney</option>
+            </select>
+            <label for="departure-date">departure-date</label>
+            <input type="data" id="departure-date" name="departure-date" required>
+            <label for="return-date">Return date:</label>
+            <input type="date" id="return-date" name="return-date">
+            <label for="travelers">Number of Travelers:</label>
+            <select name="travelers" id="travelers" required>
+            <option value="" disabled selected>Select number of Travelers</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select>
+            <label for="class">Travel Class:</label>
+            <select name="class" id="class" required>
+                <option value="" disabled selected>Select Class</option>
+                <option value="economy">Economy</option>
+                <option value="business">Business</option>
+                <option value="first">First Class</option>
+            </select>
+            <button type="submit" class="submit-button">Book Now</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
